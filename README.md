@@ -1,12 +1,13 @@
 ## Friendly Unreal Engine Documentation
 
-A curated Obsidian-style vault of bite-sized Unreal Engine notes, how-tos and reference material — written as plain Markdown so you can open, edit and publish it anywhere.
-
 This repository is a personal knowledge base organized around practical UE5 topics: blueprints, C++, world-building, inputs, version control and more. It’s optimized for human readers (and Obsidian lovers), not a packaged binary or plugin.
+
+#### Important
+Consider that it will contain errors frequently because it´s a personal Documentation made during my learning process, and published to show what I have been learning and writing during this process.
 
 ---
 
-## How this is distributed
+## Content
 
 - Files are plain Markdown (`.md`) and live in folders. You’ll find high-level notes and step-by-step how-tos under folders like:
   - `General notes/`
@@ -38,74 +39,14 @@ Open any `*.md` file (for example `How to dos/Give inputs to your game.md`) to b
 
 ---
 
-## How to use / publish
+## How to use
 
-Pick whichever workflow fits you:
-
-- Obsidian
-  - Drop the folder into your Obsidian vaults and enjoy link graphing, backlinks and the Obsidian editor.
-
-- GitHub (docs website)
-  - Convert to a docs site quickly with MkDocs or Docusaurus. Example with MkDocs:
-
-  ```powershell
-  pip install mkdocs mkdocs-material
-  mkdocs new . --no-input
-  # Edit mkdocs.yml to include the folders you want to publish
-  mkdocs serve  # preview locally
-  mkdocs build   # build site/html
-  ```
-
-- GitHub Pages
-  - Build the site with MkDocs (or GitHub Actions) and publish to GitHub Pages for a public documentation site.
+You can read all here in github, go to Obsidian vault -> Friendly Unreal Engine Documentation
+There you can see everything using the github visualizer.
 
 ---
 
-## Contribution guidelines (simple)
-
-- Edit Markdown directly. Keep paragraphs short and add headings.
-- Images: add PNGs into `not important (images)/` and reference them relatively.
-- Create a branch, make changes, open a pull request. Use clear commit messages.
-
-If you want to reorganize topics, prefer small, atomic PRs (move one folder or file at a time) so history stays clear.
-
----
-
-## Recommended .gitignore
-
-You may want to ignore editor and OS cruft. Example entries:
-
-```
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-*.code-workspace
-
-# Obsidian local cache (if any)
-.trash/
-```
-
----
-
-## License & reuse
-
-These are Markdown notes intended for learning and sharing. If you'd like a license for public distribution, consider adding one (for docs, Creative Commons Attribution-ShareAlike is often a good fit; for code, MIT or Apache is common). If you want, I can add a LICENSE file — tell me which license you prefer.
-
----
-
-## Notes & tips (pro-tips)
-
-- Keep file names short and use kebab-case or spaces consistently — this vault currently mixes both; normalizing helps cross-platform linking.
-- Use relative links in Markdown so notes keep working when moved or published.
-- When publishing, trim `not important (images)/` or reorganize screenshots into topic-specific subfolders.
-
----
-
-## TL;DR — Why this repo exists
+## Why this repo exists
 
 Because learning Unreal Engine is messy. This repo keeps small, practical notes and recipes in plain Markdown so they’re easy to read, share, and evolve. It’s your portable UE brain.
 
-If you want, I can: add a license, scaffold an `mkdocs.yml` and GitHub Actions workflow to publish it, or standardize filenames. Tell me which and I’ll do it.
