@@ -1,0 +1,1 @@
+Work exactly the same as a function but with the particularity that you can add a special output called [[Execution]], which is basically an execution flow like any other (the white lines of the blueprints).

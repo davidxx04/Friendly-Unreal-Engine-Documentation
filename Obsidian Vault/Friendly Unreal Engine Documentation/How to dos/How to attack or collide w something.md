@@ -1,0 +1,1 @@
+You have to create a [[Multi sphere]] that it´s a hitbox. 

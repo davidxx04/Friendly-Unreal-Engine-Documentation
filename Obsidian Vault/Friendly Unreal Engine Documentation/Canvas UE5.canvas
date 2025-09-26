@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d51cf2c04715852d","type":"file","file":"Friendly Unreal Engine Documentation/World/World.md","x":-1280,"y":-920,"width":680,"height":1600},
+		{"id":"707a97105900dd22","type":"file","file":"Friendly Unreal Engine Documentation/World/levels/level.md","x":-160,"y":-920,"width":520,"height":500},
+		{"id":"cf979b7e8f653cd0","type":"file","file":"Friendly Unreal Engine Documentation/World/levels/UObjects/UObject.md","x":400,"y":-1200,"width":160,"height":160},
+		{"id":"515dc9c1c27c5a0e","type":"file","file":"Friendly Unreal Engine Documentation/World/levels/Actors/Actor.md","x":960,"y":-1320,"width":400,"height":400},
+		{"id":"880b4599d5e69add","x":1600,"y":-1320,"width":253,"height":182,"type":"file","file":"Friendly Unreal Engine Documentation/World/levels/Components/Component.md"}
+	],
+	"edges":[
+		{"id":"101242eebfcd6629","fromNode":"d51cf2c04715852d","fromSide":"right","toNode":"707a97105900dd22","toSide":"left"},
+		{"id":"4c75ca8b7a70c899","fromNode":"707a97105900dd22","fromSide":"right","toNode":"515dc9c1c27c5a0e","toSide":"left"},
+		{"id":"1058b306ccd96bbd","fromNode":"707a97105900dd22","fromSide":"right","toNode":"cf979b7e8f653cd0","toSide":"left"},
+		{"id":"708816d7fe4b2b01","fromNode":"515dc9c1c27c5a0e","fromSide":"right","toNode":"880b4599d5e69add","toSide":"left"}
+	]
+}

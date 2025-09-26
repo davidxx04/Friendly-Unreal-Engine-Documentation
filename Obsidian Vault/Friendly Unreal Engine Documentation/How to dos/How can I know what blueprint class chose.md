@@ -1,0 +1,1 @@
+To chose the [[Blueprint class]] correctly, You just have to wonder what things will you need for your bp, if you will need a capsule collider and a mesh, for example, then the perfect option is a [[Character BP]], because it has that things by default (that´s why default bp classes exist).
